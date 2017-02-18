@@ -1,0 +1,45 @@
+{
+	"name": "crackerjackdigital/silverstripe-modular-relationships",
+	"type": "silverstripe-module",
+	"description": "Relationships for Modular",
+	"homepage": "http://github.com/crackerjackdigital",
+	"license": "BSD-3-Clause",
+	"keywords": [
+		"silverstripe"
+	],
+	"authors": [
+		{
+			"name": "Steve Wake",
+			"homepage": "https://github.com/wakes"
+		},
+		{
+			"name": "CrackerJack Digital",
+			"homepage": "http://www.crackerjack.net.nz/"
+		}
+	],
+	"require": {
+		"php": ">=5.5",
+		"composer/installers": "*",
+		"crackerjackdigital/modular": "*",
+		"crackerjackdigital/modular-types": "*",
+		"crackerjackdigital/modular-fields": "*"
+	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/CrackerjackDigital/silverstripe-modular.git"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/CrackerjackDigital/silverstripe-modular-types.git"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/CrackerjackDigital/silverstripe-modular-fields.git"
+		}
+	],
+	"extra": {
+		"installer-name": "modular-relationships"
+	},
+	"minimum-stability": "dev"
+}
